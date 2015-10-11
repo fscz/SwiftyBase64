@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/drichardson/SwiftyBase64"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Doug Richardson" => "dougie.richardson@gmail.com" }
-  s.platform     = :ios, "8.0"
+  s.ios.platform  = :ios, '8.0'
+  s.ios.deployment_target = "8.0"
   s.watchos.platform = :watchos, '2.0'
   s.watchos.deployment_target = "2.0"
   s.source       = { :git => "https://github.com/drichardson/SwiftyBase64.git", :tag => "1.0.0" }
