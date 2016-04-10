@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/drichardson/SwiftyBase64.git"}
   
   s.ios.deployment_target = "8.0"
+  s.watchos.platform = :watchos, '2.0'
   
   s.source_files = "SwiftyBase64"
   
