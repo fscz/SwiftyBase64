@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   
   s.ios.platform  = :ios, '8.0'
   s.watchos.platform = :watchos, '2.0'
-  //s.ios.deployment_target = "8.0"
-  //s.watchos.deployment_target = "2.0"
+  #s.ios.deployment_target = "8.0"
+  #s.watchos.deployment_target = "2.0"
   
   s.source_files = "SwiftyBase64"
   
